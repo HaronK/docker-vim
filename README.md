@@ -16,7 +16,7 @@ Command to run vim container:
 vim-with-plugins/Dockerfile
 ---------------------------
 
-Docker image: **haron/vim-with-plugins**
+Docker image: **haron/vim-with-plugins**  
 Based on **haron/vim**
 
 Adds support for the several useful plugins:
