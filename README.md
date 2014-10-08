@@ -7,7 +7,7 @@ vim/Dockerfile
 Docker image: **haron/vim**
 
 Dockerfile with vim installed.
-Additionally pathogen plugin and powerline fonts are installed.
+Additionally [pathogen](https://github.com/tpope/vim-pathogen) plugin and [powerline fonts](https://github.com/Lokaltog/powerline-fonts) are installed.
 
 Command to run vim container:
 
