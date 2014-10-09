@@ -33,5 +33,7 @@ RUN mkdir -p $HOME/.fonts $HOME/.config/fontconfig/conf.d
 RUN wget -P $HOME/.fonts                     https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf
 RUN wget -P $HOME/.config/fontconfig/conf.d/ https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf
 RUN fc-cache -vf $HOME/.fonts/
+RUN echo "set guifont=Droid\\ Sans\\ Mono\\ 10"
+#RUN echo "set guifont=Liberation\\ Mono\\ for\\ Powerline\\ 10"
 
 CMD vim
